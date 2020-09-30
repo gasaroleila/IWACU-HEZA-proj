@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 600;
+  font-family: ropa-sans-pro, sans-serif;
+  line-height: 38px;
+  background-image: url("PLACES/Volcano-pics/bg.jpg");
+      background-size: 100%;
+}
+
+/*  nav bar */
+
+ul {
+  list-style-type: none;
+  margin-left: 41em;
+  position: fixed;
+  top: 5px;
+}
+
+ul li {
+  float: left;
+  margin: 11px 55px 0 0;
+  position: relative;
+}
+
+nav img,
+nav h6 {
+  display: inline;
+  position: fixed;
+}
+
+nav h6 {
+  margin-left: 123px;
+    position: fixed;
+    top: 19px;
+    color: white;
+    font-size: 17px;
+}
+
+nav img {
+  display: inline;
+  margin: 16px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #ece2d7;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/*  underline of links */
+ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 0;
+  bottom: -8px;
+  left: 50%;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+ul li a:hover::after {
+  width: 80%;
+  left: 8%;
+}
+
+.fa {
+  font-size: 15px;
+}
+
+.fa-search {
+  margin-top: 24px;
+}
+
+.fa-user {
+  font-size: 15px;
+  color: white;
+  margin-left: 55px;
+}
+
+/* dropdwon menu that appears when u click the bars*/
+
+/* .dropdown-content {
+  display: none;
+  background-color: #212121;
+  width: 164px;
+  padding-left: 21px;
+  margin-left: 36em;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 4px 12px 20px 4px rgba(0, 0, 0, 0.2);
+} */
+
+/* a#account {
+  padding-left: 5px;
+  font: 600;
+  font-family: ropa-sans-pro, sans-serif;
+} */
+
+/* boxes */
+
+
+.box {
+  display: inline;
+}
+
+
+.box img {
+  height: 20em;
+  width: 13em;
+  margin-left: 8em;
+  position: absolute;
+  top: 14em;
+  left: 26em;
+  border-radius: 15px;
+  box-shadow: 15px 23px 28px -6px rgba(0, 0, 0, 0.54);
+}
+
+
+.box1 img {
+  position: absolute;
+  left: 28em;
+}
+.box2 img {
+  position: absolute;
+  left: 42em;
+}
+
+.box3 img {
+  position: absolute;
+  left: 56em;
+}
+
+.box4 img {
+  position: absolute;
+  left: 70em;
+}
+
+.box5 img {
+  position: absolute;
+  left: 84em;
+  top: 14em;
+}
+
+.box6 img {
+  position: absolute;
+    left: 98em;
+}
+
+.box7 img {
+  position: absolute;
+  left: 112em;
+}
+
+/* .box8 img {
+  position: absolute;
+  left: 126em;
+} */
