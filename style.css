@@ -110,7 +110,7 @@ ul li a:hover::after {
 
 /* words that appear */
 .words {
-  display: none; 
+    display: none;
   /* display: inline-block; */
   color: white;
   position: absolute;
@@ -119,63 +119,46 @@ ul li a:hover::after {
   line-height: 1.5;
 }
 
-.words2 {
-   display: inline-block; 
+.words1,.words2,.words3,.words4,.words5,.words6,.words7{
   color: white;
   position: absolute;
   top: 12em;
   left: 3em;
   line-height: 1.5;
+
+}
+.words1 {
+  /* display: none; */
+  display: inline-block;
+}
+.words2 {
+  display: none;
+  /* display: inline-block; */
 }
 
 .words3 {
-  display: none;
+  display: none; 
   /* display: inline-block; */
-  color: white;
-  position: absolute;
-  top: 12em;
-  left: 3em;
-  line-height: 1.5;
 }
 
 .words4 {
   display: none;
-  /* display: inline-block; */
-  color: white;
-  position: absolute;
-  top: 12em;
-  left: 3em;
-  line-height: 1.5;
+  /* display: inline-block;  */
 }
 
 .words5 {
   display: none;
   /* display: inline-block; */
-  color: white;
-  position: absolute;
-  top: 12em;
-  left: 3em;
-  line-height: 1.5;
-
 }
 
 .words6 {
    display: none;
-   /* display: inline-block; */
-   color: white;
-   position: absolute;
-   top: 12em;
-   left: 3em;
-   line-height: 1.5;
+   /* display: inline-block;  */
 }
 
 .words7 {
- display: none; 
-   color: white;
-   position: absolute;
-   top: 12em;
-   left: 3em;
-   line-height: 1.5;
+   display: none; 
+   /* display: inline-block; */
 }
 
 .line {
@@ -189,31 +172,41 @@ ul li a:hover::after {
     margin-left: 95px;
 }
 
+.words1 .line2 {
+  right: 536px;
+}
+.words3 .line2 {
+  margin-left: 75px;
+}
+
+.words4 .line2 {
+  margin-left: 77px;
+}
 .words5 .line2 {
-  margin-left: 63px;
+  margin-left: 47px;
 }
 
 .words6 .line2 {
-  margin-left: 76px;
+  margin-left: 59px;
 }
 
 .words7 .line2 {
-  margin-left: 35px;
+  margin-left: 17px;
 }
 
-.words h5,.words2 h5,.words3 h5,.words4 h5,.words5 h5,.words6 h5,.words7 h5{
+.words h5,.words1 h5,.words2 h5,.words3 h5,.words4 h5,.words5 h5,.words6 h5,.words7 h5{
   font-size: 1em;
 }
 
-.words h1,.words2 h1,.words3 h1,.words4 h1,.words5 h1,.words6 h1,.words7 h1{
+.words h1,.words1 h1,.words2 h1,.words3 h1,.words4 h1,.words5 h1,.words6 h1,.words7 h1{
   font-size: 3em;
 }
 
-.words h4,.words2 h4,.words3 h4,.words4 h4,.words5 h4,.words6 h4,.words7 h4{
+.words h4,.words1 h4,.words2 h4,.words3 h4,.words4 h4,.words5 h4,.words6 h4,.words7 h4{
   font-size: 21px;
 }
 
-.words p,.words2 p,.words3 p,.words4 p,.words5 p,.words6 p,.words7 p{
+.words p,.words1 p,.words2 p,.words3 p,.words4 p,.words5 p,.words6 p,.words7 p{
   font-size: 14px;
   line-height: 3.5;
 }
