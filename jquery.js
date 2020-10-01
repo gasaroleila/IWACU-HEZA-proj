@@ -41,4 +41,12 @@ $(document).mouseup(e => {
 
 
 
-
+//  $(".box1").click(function () {
+//   $("#words1").removeClass("words").replaceWith("words2")
+//   $(".words2").css({
+//     'display': 'block', 
+//     'top': '12em',
+//     'left': '3em'
+//   });
+//   $("words2").removeClass(".line line1").replaceWith(".line line2");
+// });
