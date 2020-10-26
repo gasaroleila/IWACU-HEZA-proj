@@ -9,6 +9,7 @@ body {
   font-family: ropa-sans-pro, sans-serif;
   line-height: 38px;
   background-image: url("PLACES/Volcano-pics/bg.jpg");
+  /* background-repeat: no-repeat; */
   background-size: 100%;
   width: 168vw;
 }
@@ -109,9 +110,12 @@ ul li a:hover::after {
 } */
 
 /* words that appear */
+.box {
+  overflow: hidden;
+}
 .words {
-    display: none;
-  /* display: inline-block; */
+  /* display: none; */
+  display: inline-block;
   color: white;
   position: absolute;
   top: 11em;
@@ -128,12 +132,12 @@ ul li a:hover::after {
 
 }
 .words1 {
-  /* display: none; */
-  display: inline-block;
+  display: none;
+  /* display: inline-block; */
 }
 .words2 {
   display: none;
-  /* display: inline-block; */
+   /* display: inline-block; */
 }
 
 .words3 {
@@ -161,37 +165,42 @@ ul li a:hover::after {
    /* display: inline-block; */
 }
 
+
+#con p {
+  font-weight: normal;
+}
+
 .line {
   position: relative;
   top: 2em;
-  right: 495px;
+  right: 454px;
 }
 
 .line2 {
     right: 494px;
-    margin-left: 95px;
+    margin-left: 129px;
 }
 
 .words1 .line2 {
   right: 536px;
 }
 .words3 .line2 {
-  margin-left: 75px;
+  margin-left: 112px;
 }
 
 .words4 .line2 {
-  margin-left: 77px;
+  margin-left: 115px;
 }
 .words5 .line2 {
-  margin-left: 47px;
+  margin-left: 84px;
 }
 
 .words6 .line2 {
-  margin-left: 59px;
+  margin-left: 95px;
 }
 
 .words7 .line2 {
-  margin-left: 17px;
+  margin-left: 55px;
 }
 
 .words h5,.words1 h5,.words2 h5,.words3 h5,.words4 h5,.words5 h5,.words6 h5,.words7 h5{
@@ -287,3 +296,10 @@ button.learn-more:hover {
   position: absolute;
   left: 126em;
 } */
+
+/* @media only screen and (min-width:400px)  {
+  body {
+    /*background-size: 886vw;
+  }
+
+} 
